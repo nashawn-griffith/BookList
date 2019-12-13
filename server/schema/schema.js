@@ -7,6 +7,9 @@ const {
   GraphQLNonNull
 } = require('graphql');
 
+const Book = mongoose.model('book');
+const Author = mongoose.model('author');
+
 //create a book type. it should have fields with id,name, genre
 
 /**
